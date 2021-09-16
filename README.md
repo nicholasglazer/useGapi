@@ -11,7 +11,7 @@ yarn add react-use-gapi
 ```javascript
 import useGapi from 'react-use-gapi';
 
-function useGapi ({ isActive, setIsActive }) {
+function Login() {
   const { signIn } = useGapi({
     apiKey: "YOUR_API_KEY",
     clientId: "YOUR_CLIENTID",
