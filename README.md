@@ -1,5 +1,5 @@
 # reactUseGapi
-[![NPM](https://img.shields.io/npm/v/react-use-gapi.svg?&color=green)](https://www.npmjs.com/package/react-use-gapi)
+[![NPM](https://img.shields.io/npm/v/@use-gapi/react.svg?&color=green)](https://www.npmjs.com/package/@use-gapi/react)
 
 Lignweight `4.1kb`, simple yet powerful react hook to work with google api/auth.
 ## Install
