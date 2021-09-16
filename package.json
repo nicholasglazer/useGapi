@@ -1,0 +1,24 @@
+{
+  "name": "react-use-gapi",
+  "version": "0.0.1",
+  "description": "React hook to work with Google Api and Google Authentication",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholasglazer/useGapi.git"
+  },
+  "keywords": [
+    "react-hook",
+    "hook",
+    "react",
+    "google api",
+    "gapi",
+    "auth2"
+  ],
+  "author": "Nicholas Glazer <glazer.nicholas@google.com> (http://nicholasglazer.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicholasglazer/useGapi/issues"
+  },
+  "homepage": "https://github.com/nicholasglazer/useGapi#readme"
+}

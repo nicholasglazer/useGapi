@@ -1,0 +1,11 @@
+node_modules
+.cache/
+.log
+.rts2_cache_cjs
+.rts2_cache_esm
+.env
+.env.test
+.env.production
+.npm
+.yarn-integrity
+.DS_Store
