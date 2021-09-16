@@ -1,17 +1,17 @@
-# useGapi
+# reactUseGapi
 [![NPM](https://img.shields.io/npm/v/react-use-gapi.svg?&color=green)](https://www.npmjs.com/package/react-use-gapi)
 
-Lignweight, simple yet powerful react hook to work with google api/auth.
+Lignweight `4.1kb`, simple yet powerful react hook to work with google api/auth.
 ## Install
 ```bash
-yarn add react-use-gapi
+yarn add @use-gapi/react
 ```
 
 ## Usage
 ```javascript
-import useGapi from 'react-use-gapi';
+import useGapi from '@use-gapi/react';
 
-function useGapi ({ isActive, setIsActive }) {
+function Login() {
   const { signIn } = useGapi({
     apiKey: "YOUR_API_KEY",
     clientId: "YOUR_CLIENTID",
@@ -38,13 +38,13 @@ function useGapi ({ isActive, setIsActive }) {
 const { signIn, signOut, isSignedIn, profile, client } = useGapi();
 ```
 ### signIn :: () => Object
-Can accept argument `options` - see available google options [here](https://developers.google.com/identity/sign-in/web/reference#googleauthsigninoptions)
-Will return user profile object see [profile object](###profile) or error.
+Can accept argument `options` - see available google options [here](https://developers.google.com/identity/sign-in/web/reference#googleauthsigninoptions). 
+Will return user's [profile object](#profile--object) or error.
 ### signOut :: () => Boolean
 Sign out and disconnect.
-Will return false or error.
+Will return `false` or error.
 ### isSignedIn :: Boolean
-Falsy value if signOut.
+Falsy value if not signed in.
 ### profile :: Object
 Google user profile object. 
 Default state is:
